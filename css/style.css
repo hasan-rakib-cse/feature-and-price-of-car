@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter" !important;
+}
+:focus {
+	outline: 0;
+}
+nav li {
+    margin-left: 20px;
+}
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    transition: 0.5s;
+    border-radius: 4px;
+}
+nav li:hover .nav-link {
+    background: #F5F6F7;
+}
+.SignUp {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+
+.SignUp img{
+    background: #F5F6F7;
+    border-radius: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.Section1 {
+    background: linear-gradient(rgba(18, 10, 52, 0.700577), rgba(18, 10, 52, 0.700577)), url(../images/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+
+.Section1 .HeroHeading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.304762px;
+    color: #FFFFFF;
+    width: 80%;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    margin: 0 auto 0 auto;
+}
+.Section1P{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 47%;
+}
+.TopFooterSection {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+    border-radius: 8px;
+    max-width: 900px;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -34px;
+    left: 50%;
+    z-index: 99;
+    transform: translateX(-50%);
+    padding: 16px 0px;
+    overflow: hidden;
+}
+.TopFooterSection p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-bottom: 0;
+    padding-left: 12px;
+}
+
+.FormSelect {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    border: 1px solid transparent;
+    border-radius: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    width: 100%;
+}
+.optfroup {
+    font-size: 12px;
+}
+.Section1 select:focus {
+    outline: none;
+    border:1px solid #F5F6F7;
+    box-shadow: none;
+}
+.withoutp .FormSelect {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-top: 14px;
+}
+.HeaderButton {
+    background: #7963F0;
+    border-radius: 10px;
+    padding: 10px 22px;
+    margin-top: 1px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+.HeaderButton img {
+    margin-left: -3px;
+}
+.BorderRight {
+    position: relative;
+}
+.BorderRight::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 35px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 6px;
+    background: #EDE8E9;
+}
+.Section2 {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+.logo-slider {
+    overflow: hidden;
+    padding-top: 70px;
+}
+.logo-slider .owl-item {
+    float: left;
+}
+.logo-slider .owl-nav,
+.logo-slider .owl-dots {
+    display: none;
+}
+.Section3 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.Section3 h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0D0A19;
+    margin-top: 10px;
+}
+.Section3 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.Button1 {
+    background: linear-gradient(0deg, rgba(255,255,255,.85), rgba(255,255,255,.85)), #7963f0;
+    color: #7963f0;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -.1px;
+}
+.Button2 {
+    background-color: #f5f6f7;
+    color: #9a9ea7;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -.1px;
+}
+.card {
+    border: none;
+}
+
+/* section4 area */
+.Section4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.FindcarHeader {
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.findCar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    color: #0D0A19;
+}
+.ArrowArea {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #9A9EA7;
+    margin-top: 15px;
+    margin-right: 84px;
+
+}
+header p span {
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+}
+.CarouselSection {
+    overflow: hidden;
+    padding-top: 70px;
+}
+.CarouselSection .owl-item {
+    float: left;
+}
+.sliderImgLeft {
+    position: absolute;
+    border-radius: 10px;
+    background: #f5f6f7;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: 15px;
+    right: 55px;
+}
+.sliderImgRight {
+    position: absolute;
+    border-radius: 10px;
+    background: #f5f6f7;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: 15px;
+    right: 15px;
+}
+.Sedan {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0A19;
+    margin-top: 6px;
+}
+.ProBTN {
+    background: linear-gradient(0deg, rgba(255,255,255,.85), rgba(255,255,255,.85)), #7963f0;
+    color: #7963f0;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+.ProBTN1 {
+    background: #F5F6F7;
+    color: #9A9EA7;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+}
+
+.btn-find {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+button.active {
+    color: #0D0A19 !important;
+}
+.btn-find:hover {
+    background-color: #F5F6F7;
+}
+
+.find-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.find-nav .btns {
+    display: flex;
+}
+.find-nav h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+.PopularP {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-bottom: 50px;
+}
+.findItem {
+    display: flex;
+    margin-bottom: 35px;
+}
+.findItem img {
+    width: 40px;
+    height: 40px;
+}
+.findDesc {
+    margin-left: 15px;
+}
+.findDesc .CarName {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0D0A19;
+    margin-bottom: 0;
+}
+.findDesc .CarNumber {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.marginArrowIcon img{
+    margin-left: 145px;
+    width: 20px;
+    height: 20px;
+}
+.findDesc1 {
+    display: flex;
+    justify-content: space-between;
+}
+.findDesc1 .CarName1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    color: #0D0A19;
+    margin-bottom: 0;
+}
+.findDesc1 .CarNumber1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: right;
+    color: #0D0A19;
+    margin-bottom: 0;
+}
+.PopularP1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    margin-bottom: 20px;
+}
+.extraMargin {
+    margin-top: 40px;
+}
+footer {
+    margin-top: 70px;
+}
+.footer1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #F5F6F7;
+}
+.footer1 h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+.footer1 ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.footer1 ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.footer1 ul li a {
+    text-decoration: none;
+    color: #9A9EA7;
+    display: inline-block;
+}
+.footer2 {
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+.footer2 .BottomLeft {
+    order: 0;
+}
+.BottomLeft ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+}
+.BottomLeft ul li {
+    margin-right: 16px;
+}
+.BottomLeft ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+.BottomLeft ul .CopyRight a {
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.footer2 .BottomRight {
+    order: 1;
+}
+.BottomRight ul {
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: end;
+}
+.BottomRight ul li {
+    margin-left: 16px;
+}
+.BottomRight ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.BottomRight ul li a img {
+    margin-right: 4px;
+}
+.BottomRight ul li a span {
+    margin-right: 6px;
+}

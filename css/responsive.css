@@ -1,0 +1,234 @@
+@media (max-width: 991px) {
+    nav ul {
+        padding: 10px 16px !important;
+        background: #F5F6F7;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    nav ul li {
+        border-bottom: 1px solid #000;
+    }
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+    nav ul li {
+        margin-left: 0;
+    }
+    .SignUp img {
+        padding-left: 0;
+        width: unset;
+    }
+    .Section1 .HeroHeading {
+        font-size: 50px;
+        line-height: 66px;
+        width: 80%;
+    }
+    .Section1P {
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: 300;
+        width: 80%;
+    }
+    .Section2 img {
+        margin-bottom: 20px;
+    }
+    .Section2 {
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Section1 {
+        height: 580px;
+    }
+    .Section1 .HeroHeading {
+        font-size: 36px;
+        line-height: 42px;
+        padding-bottom: 10px;
+        padding-top: 100px;
+        width: 70%;
+    }
+    .Section1P {
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: 300;
+        width: 76%;
+    }
+
+    .TopFooterSection {
+        bottom: -160px;
+        width: 96%;
+    }
+    .withp{
+        margin-bottom: 10px;
+    }
+    .withoutp{
+        margin-bottom: 10px;
+    }
+    .FormSelect {
+        padding-bottom: 0px;
+        margin-bottom: 12px;
+    }
+    .HeaderButton {
+        width: 94%;
+        padding: 15px 0px;
+        margin: 5px auto 0 auto;
+    }
+    .ButtonCenter {
+        text-align: center;
+    }
+    .BorderRight::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 0;
+        background: #EDE8E9;
+    }
+    .Section2 {
+        margin-top: 250px;
+        margin-bottom: 100px;
+    }
+    .Section2 img {
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .CarouselSection {
+        padding-top: 40px;
+    }
+    .find-nav {
+        display: unset;
+        width: 100%;
+    }
+    .find-nav h3 {
+        margin-bottom: 40px;
+    }
+    .find-nav .btns {
+        margin-bottom: 40px;
+    }
+    .find-nav .btns button:first-child {
+        display: none;
+    }
+    .Order0 {
+        order: 1;
+    }
+    .Order1 {
+        order: 0;
+    }
+    .footer1 .col-md-3 {
+        margin-bottom: 20px;
+    }
+    .footer1 .col-md-3:last-child {
+        margin-bottom: 0;
+    }
+    .BottomLeft ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .BottomLeft ul li {
+        margin-bottom: 16px;
+    }
+    .BottomLeft ul li:last-child {
+        margin-bottom: 0;
+    }
+    .footer2 .BottomLeft {
+        order: 1;
+    }
+    .footer2 .BottomRight {
+        order: 0;
+    }
+    .BottomRight {
+        margin-bottom: 30px;
+    }
+    .BottomRight ul {
+        justify-content: space-between;
+    }
+    .BottomRight ul li:first-child {
+        margin-left: 0;
+    }
+}
+@media (max-width: 575px) {
+    .nav-link  {
+        font-size: 14px;
+    }
+    .Section1 {
+        height: 500px;
+    }
+    .Section1 .HeroHeading {
+        font-size: 32px;
+        line-height: 36px;
+        width: 80%;
+    }
+    .Section1P {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .Section3 h3 {
+        font-size: 24px;
+    }
+    .findCar {
+        font-size: 24px;
+    }
+    .ArrowArea {
+        font-size: 14px;
+    }
+    .sliderImgLeft {
+        width: 26px;
+        height: 26px;
+        top: 18px;
+    }
+    .sliderImgRight {
+        width: 26px;
+        height: 26px;
+        top: 18px;
+        right: 15px;
+    }
+    .find-nav h3 {
+        font-size: 24px;
+    }
+    .findDesc .CarName {
+        font-size: 16px;
+    }
+    .findDesc .CarNumber {
+        font-size: 12px;
+    }
+    .findDesc1 .CarName1 {
+        font-size: 14px;
+    }
+    .findDesc1 .CarNumber1 {
+        font-size: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .Section1 .HeroHeading {
+        font-size: 26px;
+        line-height: 32px;
+        width: 100%;
+    }
+    .Section1P {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+@media (max-width: 360px) {
+    .Section1 {
+        height: 475px;
+    }
+    .Section1 .HeroHeading {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .Section1P {
+        width: 100%;
+        line-height: 22px;
+        padding-top: 0;
+    }
+}
